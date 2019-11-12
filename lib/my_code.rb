@@ -41,14 +41,7 @@ def reduce_to_total(set, num=0)
 end
 
 def reduce_to_all_true(set)
-  truthyness = true
-  set.each do |value|
-    if value == true
-      return true 
-    elsif value == nil 
-      truthyness == false
-    end 
-  end
+  set.all?
 end
 
 
