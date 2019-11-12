@@ -45,6 +45,7 @@ def reduce_to_all_true(set)
 end
 
 def reduce_to_any_true(source) 
+  set.any?
 end
 
 
